@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Digital Decay</title>
+</head>
+
+<body>
+  <div class="overlay">
+    <h1>Decay</h1>
+    <p>Hover to reconstruct</p>
+  </div>
+
+  <button class="menu-btn" id="menu-btn">
+    <span class="btn-text">SYSTEM</span>
+    <span class="btn-glitch">SYSTEM</span>
+  </button>
+
+  <div class="menu-overlay" id="menu-overlay">
+    <div class="menu-items">
+      <a href="#" class="glitch-link" data-text="01_HOME">01_HOME</a>
+      <a href="#" class="glitch-link" data-text="02_ARCHIVE">02_ARCHIVE</a>
+      <a href="#" class="glitch-link" data-text="03_ABOUT">03_ABOUT</a>
+    </div>
+  </div>
+
+  <div id="canvas-container"></div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
